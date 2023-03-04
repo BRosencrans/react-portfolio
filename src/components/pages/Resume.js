@@ -5,7 +5,7 @@ function Resume() {
         <main className= "text-center row justify-content-center">
             <div>
                 <div className="col-1"></div>
-                <a className="btn  bg-light" download href="#">Download Resume</a>
+                <a className="btn  bg-light" href="#">Download Resume</a>
                 <br/>
                 <br/>
                 <h4  className="text-center row justify-content-center">Education:</h4>
