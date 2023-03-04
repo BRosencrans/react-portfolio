@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { v4 as uuidv4 } from 'uuid';
-
 
 const works = [
 
@@ -41,7 +39,7 @@ const works = [
 ]
 function Portfolio() {
     return (
-        <main className=' text-center row justify-content-center'>
+        <body className=' text-center row justify-content-center mainPage'>
             {works.map((element) => {
                 return (
                     <section key={element.id} className='col-sm-12 col-md-6 proj-card'>
@@ -74,7 +72,7 @@ function Portfolio() {
                     </section>
                 )
             })}
-        </main>
+        </body>
     )
 }
 export default Portfolio;

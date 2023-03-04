@@ -1,8 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"
-
-
-
+import './style/footer.css'
 
 function Footer(){
     return(
@@ -11,7 +8,7 @@ function Footer(){
 
             <p>Made with 💗 by Brandon Rosencrans in 2023</p>
 
-            <button className='btn bg-light'>
+            <button className='btn bg-light footerBtn'>
             <a href='https://github.com/BRosencrans' target='_blank'rel='noopener noreferrer'>Github</a>
             </button>
 
