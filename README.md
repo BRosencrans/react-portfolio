@@ -8,7 +8,10 @@ This is a single "page" react demo that showcases what a basic portfolio looks l
 [Deployed link](https://brosencrans.github.io/react-portfolio)
 
 ## ScreenShots
-
+![Homepage/Portfolio page](https://raw.githubusercontent.com/BRosencrans/react-portfolio/main/src/screenshots/react-homepage.png)
+![About Me page](https://raw.githubusercontent.com/BRosencrans/react-portfolio/main/src/screenshots/about-me-react.png)
+![Resume page](https://raw.githubusercontent.com/BRosencrans/react-portfolio/main/src/screenshots/react-resume.png)
+![Contact page](https://raw.githubusercontent.com/BRosencrans/react-portfolio/main/src/screenshots/contact-form-react.png)
 
 
 ## Credits
