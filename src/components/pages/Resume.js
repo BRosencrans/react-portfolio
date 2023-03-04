@@ -2,23 +2,18 @@ import React from "react";
 
 function Resume() {
     return (
-        <main>
+        <main className= "text-center row justify-content-center">
             <div className="res-text">
                 <div className="col-1"></div>
-                
-                <div className="col-10">
-
-                    <div>
-
-                        <a className="btn text-success bg-light" download href="#">Download Resume</a>
-                       
-                        <h4  className="text-center row justify-content-center">Education:</h4>
+                <a className="btn text-success bg-light" download href="#">Download Resume</a>
+                <br/>
+                <br/>
+                <h4  className="text-center row justify-content-center">Education:</h4>
                         <div className="indent text-center row justify-content-center">
-                                <h6>tincidunt augue</h6>                                   
-                        </div>
-                       
-                        
-                        <h4  className="text-center row justify-content-center">Skills:</h4>
+                                <h6>tincidunt augue</h6> 
+                <br/>
+                <br/>
+                         <h4  className="text-center row justify-content-center">Skills:</h4>
                         <div   className=" text-center row justify-content-center">
                             <ul>
                                 <li>iaculis eu</li>
@@ -26,7 +21,8 @@ function Resume() {
                                 <li>sollicitudin nibh</li>                                                         
                             </ul>
                         </div>
-
+                        <br/>
+                        <br/>
                         <h4 className="text-center row justify-content-center">Work Experience:</h4>
 
                         <div className=" text-center row justify-content-center">
@@ -40,13 +36,14 @@ function Resume() {
                                 <li>adipiscing elit pellentesque habitant morbi</li>
                                 <li>integer vitae justo eget magna</li>                    
                             </ul>
-                        </div>                                          
-                    </div>
-                </div>               
-            </div>
-            
-        </main>
-        
+                            <br/>
+                        </div>   
+                <div className="col-10">
+                </div>                    
+               </div>               
+              </div>
+      
+        </main>        
     )
 }
 
