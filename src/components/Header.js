@@ -7,7 +7,7 @@ import './style/header.css'
 
             <ul className="nav justify-content-around ">
             
-                <li className="nav-item"><Link to="/">My Portfolio</Link></li>
+                <li className="nav-item"><Link to="/react-portfolio">My Portfolio</Link></li>
                 <li className="nav-item"><Link to="/aboutMe">About Me</Link></li>
                 <li className="nav-item"><Link to="/resume">My Resume</Link></li>
                 <li className="nav-item"><Link to="/contactMe">Send me an Email</Link></li>
