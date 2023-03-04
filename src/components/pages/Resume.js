@@ -3,9 +3,9 @@ import React from "react";
 function Resume() {
     return (
         <main className= "text-center row justify-content-center">
-            <div className="res-text">
+            <div>
                 <div className="col-1"></div>
-                <a className="btn text-success bg-light" download href="#">Download Resume</a>
+                <a className="btn  bg-light" download href="#">Download Resume</a>
                 <br/>
                 <br/>
                 <h4  className="text-center row justify-content-center">Education:</h4>

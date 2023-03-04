@@ -39,11 +39,11 @@ const works = [
 ]
 function Portfolio() {
     return (
-        <body className=' text-center row justify-content-center mainPage'>
+        <body className=' text-center row justify-content-center '>
             {works.map((element) => {
                 return (
-                    <section key={element.id} className='col-sm-12 col-md-6 proj-card'>
-                            <div className='text-center col-12 card-title'>
+                    <section key={element.id} className='col-sm-12 col-md-6 '>
+                            <div className='text-center col-12 '>
                                 <h5>{element.title}</h5>
                             </div>
                             <a target="_blank" rel="noopener noreferrer" href={element.link}>
