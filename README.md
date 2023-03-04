@@ -5,7 +5,7 @@ This is a single "page" react demo that showcases what a basic portfolio looks l
 
 
 ## Link to Portfolio
-
+[Deployed link](https://brosencrans.github.io/react-portfolio)
 
 ## ScreenShots
 
